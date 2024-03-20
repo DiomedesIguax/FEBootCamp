@@ -78,3 +78,18 @@ body {
   .mintic-talentotech {
     font-weight: bold;
   }
+
+  /* Agregar estilos personalizados para el botón Seleccionar Archivo */
+.btn-seleccionar-archivo {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    margin: 10px; /* Margen exterior */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .btn-seleccionar-archivo:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+  }
