@@ -1,0 +1,80 @@
+/* Establecer fondo con transparencia azul */
+body {
+    background-color: rgba(52, 183, 226, 0.5); /* Fondo con transparencia de color azul claro */
+  }
+  
+  /* Personalizar la tarjeta */
+  .card {
+    max-width: 30rem;
+    background-color: rgba(25, 131, 173, 0.9); /* Fondo con transparencia */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra */
+  }
+  
+  /* Establecer estilos para botones */
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 10px; /* Espaciado entre botones */
+    display: inline-block; /* Mostrar como bloque para que se apliquen los estilos de botón */
+    cursor: pointer; /* Cambiar el cursor al pasar sobre el botón */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Establecer estilos para línea horizontal */
+  .linea-horizontal {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+  }
+  
+  /* Establecer estilos para contenedor de botones */
+  .botones {
+    text-align: center; /* Centrar botones horizontalmente */
+  }
+  
+  head {
+    background-color: #00264d; /* Azul más oscuro */
+    color: #fff; /* Texto en blanco */
+    padding: 20px 0; /* Espaciado interno */
+  }
+  /* Estilos para el footer */
+  footer {
+    background-color: #00264d; /* Azul más oscuro */
+    color: #fff; /* Texto en blanco */
+    padding: 20px 0; /* Espaciado interno */
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; /* Máximo ancho del pie de página */
+    margin: 0 auto; /* Centrar en la página */
+  }
+  
+  .participantes ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .participantes ul li {
+    margin-bottom: 10px;
+  }
+  
+  .participantes ul li a {
+    color: #fff; /* Enlaces en blanco */
+    text-decoration: none;
+  }
+  
+  .mintic-talentotech {
+    font-weight: bold;
+  }
