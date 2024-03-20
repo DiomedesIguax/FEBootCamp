@@ -37,15 +37,29 @@
     <div class="card-body">
       <h5 class="card-title">Bienvenido al Proyecto de Análisis de Datos</h5>
       <h6 class="card-subtitle mb-2 text-body-secondary">BootCamp - TalentoTech</h6>
-      <img src="images/dashboard.jpg" class="card-img-top" alt="Dashboard">
+      <img src="images/resultados.jpg" class="card-img-top" alt="Dashboard">
       <div class="linea-horizontal"></div>
       <p class="card-text">Este aplicativo te permite cargar datos y realizar análisis utilizando diferentes técnicas.</p>
-      <p class="card-text">1. Utiliza el formulario de carga de datos para empezar.</p>
+      <p class="card-text"><strong>4. Presentación de resultados del Analisis.</strong></p>
       <div class="linea-horizontal"></div>
-      <div class="botones">
-        <a href="cargarDatos.html" class="btn">Cargar Datos</a>
     </div>
-    </div>
+ 
+   
+</div> 
+<div class="linea-horizontal"></div>
+<div>
+    <h1 class="titulo-leccion" title="Visualizacion">Visualizacion de areas de siembra en hectareas por municipio</h1>
+    <hr width="100%">
+    <div class="linea-horizontal"></div>
+    <label for="endPoint">Ingrese el endPoint: </label>
+    <input type="text" id="endPoint">
+    <script src="api.js"></script>
+    <button type="button" onclick="consumirApi()">Consumir API</button>
+
+    <hr width="100%">
+    <div id="myDiv"></div>
+    <hr width="100%">
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
   </div> 
   <footer>
     <div id="footer-content" class="footer-container">
